@@ -1,0 +1,200 @@
+body{
+  font-family: cursive;
+}
+
+.colored-section{
+  background-color: #ff4c68 ;
+}
+.container-fluid{
+  padding: 3%  7%  3%;
+}
+
+
+.nav-link{
+  font-size: 1rem;
+  margin: 0px 18px;
+  color: #fff ;
+}
+.nav-link:hover {
+  color: black;
+}
+.navbar-brand{
+  color: #fff ;
+  font-size: 3.5rem;
+}
+a:hover{
+  color: black ;
+}
+
+.navbar-toggler{
+  color: black ;
+}
+.navbar-toggler-icon{
+  background-color:black ;
+}
+
+.mainheading{
+  /* margin-top: 25px; */
+  color: #fff ;
+  font-size: 4rem;
+  font-weight: 500;
+  width: 95%;
+  /* text-align: center; */
+}
+.mainheading:hover{
+  color: black;
+}
+.fab{
+  margin-right: 10px;
+}
+.download-button{
+  margin-right: 20px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  /* margin:50px 50px; */
+}
+
+.iphone6{
+  position: absolute;
+
+  /* height:400px; */
+  width:225px;
+  margin-top: -50px;
+  /* width: 59%; */
+  /* margin:  auto 0; */
+  margin-left: 75px;
+  /* transform: rotate(20deg); */
+}
+/* section 2 */
+.features-white{
+  text-align: center;
+  background-color: white;
+  position:relative;
+  z-index: 1;
+
+}
+
+.container2{
+  padding:3% 7% 3%;
+
+}
+.row-cus{
+  /* justify-content: space-evenly; */
+}
+.featurebox{
+  padding:7% 6%;
+}
+h3{
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+p{
+  color: #8f8f8f;
+}
+.fas{
+  /* color: #ff4c68; */
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.fas:hover{
+  color: black;
+}
+
+
+/* testimonials */
+/* #testimonials{ */
+
+
+.testimonials-section{
+  background-color: #ef8172;
+}
+/* .container3{ */
+.carousel-inner{
+  padding: 1%  6%  3%;
+  text-align: center;
+  color: #fff;
+  /* margin: 0 10%; */
+}
+.carousel-inner:hover{
+  color: black;
+}
+.testi-text{
+  font-size: 2.5rem;
+  font-weight: 400;
+  line-height: 1.5;
+  /* padding-top: 50px; */
+  text-align: center;
+  padding: 50px 9% 5px;
+}
+/* .testi-text:hover{ */
+  /* color: black; */
+/* } */
+.testimonial-image{
+  border-radius:100%;
+  width:12%;
+  font-size: 1.5rem;
+}
+strong{
+  font-size: 1.5rem;
+}
+
+
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press-img{
+  width:10%;
+  margin: 20px 20px 25px;
+}
+#pricing{
+  padding: 3%  6%  3%;
+  text-align: center;
+}
+.price-passage{
+  margin-bottom: 50px;
+}
+.sree{
+  padding: 0 100px;
+}
+
+
+/* cta */
+.container3{
+  padding:7%;
+  text-align: center;
+}
+#cta{
+  background-color: #ef8172;
+  color: #fff;
+}
+.cta-heading:hover{
+  color: black;
+}
+
+
+#footer{
+  padding:7%;
+  background-color: #fff;
+  text-align: center;
+}
+.social-icon{
+  margin: 20px;
+  color: black;
+}
+.social-icon:hover{
+  color: red;
+}
+
+
+@media(max-width: 768px){
+  .iphone6{
+    position: static;
+  }
+  #title{
+    text-align: center;
+  }
+
+}
