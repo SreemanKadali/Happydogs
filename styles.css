@@ -152,10 +152,11 @@ strong{
 
 
 
-.dog-img{
-  height: 300px;
+.dogimg{
+  height:300px;
   border-radius: 100%;
 }
+
 .small-heading{
   margin-top: 20px;
 }
